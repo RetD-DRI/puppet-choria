@@ -51,14 +51,15 @@ class choria::repo (
       # Map Linux Mint codenames to the corresponding Ubuntu ones.
       # Note: we do not use this mapped OS, that these mappings are provided by the community on a best effort basis.
       # Feel free to send PR to add new release when necessary.
-      'tara'   => 'bionic',
-      'tessa'  => 'bionic',
-      'tina'   => 'bionic',
-      'tricia' => 'bionic',
-      'ulyana' => 'focal',
-      'ulyssa' => 'focal',
-      'uma'    => 'focal',
-      'una'    => 'focal',
+      'tara'     => 'bionic',
+      'tessa'    => 'bionic',
+      'tina'     => 'bionic',
+      'tricia'   => 'bionic',
+      'ulyana'   => 'focal',
+      'ulyssa'   => 'focal',
+      'uma'      => 'focal',
+      'una'      => 'focal',
+      'bookworm' => 'bullseye',
 
       # Use the actual codename in all other cases
       default  => $facts["os"]["distro"]["codename"],
